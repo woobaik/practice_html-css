@@ -70,3 +70,4 @@ var getReview = function(event) {
   }
 
   return reviewText;
+};
