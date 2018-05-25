@@ -26,4 +26,20 @@ body {
   background-color: rgb(255,203,160);
 }
 
-do it from 8
+
+input {
+  cursor:pointer;
+  outline: none;
+}
+
+input:last-child {
+  background-color: gold;
+}
+
+input:last-child:hover {
+  -webkit-filter: brightness(70%);
+}
+
+ol li {
+  background-color: light-grey;
+}
