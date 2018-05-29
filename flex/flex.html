@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flex</title>
+
+    <style media="screen">
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      header {
+        border-bottom: 1px solid black;
+        padding-left: 20px;
+      }
+
+      footer {
+        border-top: 1px solid black;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .content {
+        display: flex;
+      }
+
+      .content nav {
+        border-right: 1px solid black;
+      }
+
+      .content aside {
+        border-left: 1px solid black;
+      }
+
+      nav, aside {
+        flex-basis: 150px;
+        flex-shrink: 0;
+      }
+
+      main {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Commander Zico</h1>
+      </header>
+
+      <section class="content">
+        <nav>
+          <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+        </nav>
+
+        <main>
+          구태홍은 구태홍이다 Forward ball referee hat trick midfielder number 10 red card World Cup soccer African Cup of Nations defender upper 90 one-two yellow card. Center-half soccer referee forward defender hat trick one-two goal three-five-two upper 90 goalie striker World Cup number 10 African Cup of Nations. Four-four-two upper 90 UEFA European Championship World Cup forward striker number 10 halftime goalie ball hat trick goal chip brace soccer red card. Four-four-two brace forward goal chip center-half one-two midfielder upper 90 World Cup number 10 three-five-two African Cup of Nations goalie referee soccer.
+
+
+        </main>
+
+        <aside class="ad">
+          AD
+        </aside>
+      </section>
+
+      <footer>
+        <a href="http://www.google.com">홈페이지</a>
+      </footer>
+
+    </div>
+
+  </body>
+</html>
